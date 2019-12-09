@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Papyrus';
+    src: url('Papyrus.woff2') format('woff2'),
+        url('Papyrus.woff') format('woff'),
+        url('Papyrus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Papyrus';
+    src: url('Papyrus-Condensed.woff2') format('woff2'),
+        url('Papyrus-Condensed.woff') format('woff'),
+        url('Papyrus-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

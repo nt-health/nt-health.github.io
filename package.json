@@ -1,0 +1,48 @@
+{
+  "name": "wbmg-natural",
+  "version": "1.1.0",
+  "description": "Natural Therapeutics, Hastings, MN",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "images": "node ./bin/images.js"
+  },
+  "author": "Brian Eller - WBMG",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/begrafx/nt-web.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "postcss-critical-css": "^3.0.5",
+    "postcss-style-guide": "^0.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "autoprefixer": "^9.7.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "exports-loader": "^0.7.0",
+    "lodash": "^4.17.15",
+    "mime-types": "^2.1.25",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.13.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.3.1",
+    "sharp": "^0.22.0",
+    "tar": "^4.4.13",
+    "tiny-glob": "^0.2.6",
+    "trash": "^6.1.1",
+    "uglify-js": "^3.7.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
