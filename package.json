@@ -8,26 +8,26 @@
     "dev": "webpack --mode development --watch",
     "images": "node ./bin/images.js"
   },
-  "author": "Brian Eller - WBMG",
+  "author": "Weirs Beach Media Group - Brian Eller, Creative Director",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/begrafx/nt-web.git"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
-    "serialize-javascript": ">=2.1.1",
     "postcss-critical-css": "^3.0.5",
-    "postcss-style-guide": "^0.14.0"
+    "postcss-style-guide": "^0.14.0",
+    "serialize-javascript": ">=2.1.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "autoprefixer": "^9.7.2",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
     "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.0",
+    "css-loader": "^3.4.0",
     "dotenv-webpack": "^1.7.0",
     "exports-loader": "^0.7.0",
     "lodash": "^4.17.15",
@@ -41,9 +41,9 @@
     "tar": "^4.4.13",
     "tiny-glob": "^0.2.6",
     "trash": "^6.1.1",
-    "uglify-js": "^3.7.0",
+    "uglify-js": "^3.7.2",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.41.2",
+    "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10"
   }
 }

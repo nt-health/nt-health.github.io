@@ -155,8 +155,11 @@ body {
 }
 
 a {
-    color: #55CBD2;
+  /*
+    color: #55CBD2; */
+    color: peru;
     text-decoration: none;
+    transition: all .3s;
     -o-transition: all .3s;
     -moz-transition: all .3s;
     -webkit-transition: all .3s;
